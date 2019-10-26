@@ -1,7 +1,92 @@
 ---
+team:
+  heading: Welcome to the Therapy Room Bodmin
+  description: >-
+    We provide a range of complementary therapies to help improve your health
+    and well being.
+  team-member:
+    - availablility: 'Monday, Tuesday &amp; Thursday'
+      description: >-
+        Hilary has been a qualified chiropodist since 1994 and Reflexologist for
+        over 15 years.
+
+
+        Performing general foot care including nail trimming, removal of callous
+        and corns, and also practicing biomechanics (the examination of the gait
+        and the way the foot functions to treat the cause of problems as well as
+        the symptoms) this can lead to the fitting of insoles and orthotics.
+
+
+        She also performs, cryosurgery for verrucae, diabetic examinations and
+        can replace damaged nails with Pedique nail gel.
+
+
+        Now also available, PACT nail fungal treatment. This involves 4
+        treatments using light therapy to destroy the fungus. The course of
+        treatment for one nail is £120 with a £10 cost for each additional nail.
+
+
+        Hilary now offers a wax treatment which is used to target areas of dry,
+        scaly skin or areas of poor circulation. This treatment is especially
+        beneficial when used in addition to a normal Chiropody treatment leaving
+        feet soft, hydrated and smooth.
+
+
+        Dr's Remedy nail varnish is now available in The Therapy Room Bodmin
+        which contains no formaldehyde and other chemicals which cause nails to
+        turn yellow after use. Dr's Remedy is also safe for diabetics and
+        pregnancy.
+
+
+        *   HPC British Chiropody Association, Association of Reflexologists.*  
+        [Natural Therapy
+        Pages](http://www.naturaltherapypages.co.uk/therapist/hilaryhignell/13736)*  
+        [Yell.com](http://www.yell.com/b/Hilary+Hignell-Chiropodists+and+Podiatrists-Bodmin-PL312DR-5854460/index.html)
+      name: Hilary Hignell
+      prices:
+        - duration: 30 minutes
+          price: 27
+          treatment_type: Chiropody
+        - duration: 45 minutes
+          price: 35
+          treatment_type: Reflexology
+        - duration: '-'
+          price: 45
+          treatment_type: Chiropody with Reflexology
+        - duration: '-'
+          price: 37
+          treatment_type: Chiropody with Wax Treatment
+        - duration: '-'
+          price: 27
+          treatment_type: Diabetic Examination
+        - duration: 15 minutes
+          price: 18
+          treatment_type: Nail Trimming
+        - duration: 45 minutes
+          price: 35
+          treatment_type: Indian Head Massage
+        - duration: 60 minutes
+          price: 39
+          treatment_type: Biomechanical Evaluation
+        - duration: '-'
+          price: 120
+          treatment_type: PACT nail fungal treatment - One nail
+        - duration: '-'
+          price: 10
+          treatment_type: PACT nail fungal treatment - cost for each additional nail
+        - duration: '-'
+          price: 25
+          treatment_type: Wax Treatment - 1/2 treatment
+        - duration: '-'
+          price: 50
+          treatment_type: >-
+            Wax Treatment  - if added on to a normal 1/2 hour Chiropody
+            appointment
+      qualifications: 'Dip Pod Med, MBChA, MSSCh, MAR, HPC Reg, CNHC Reg'
+      treatments: Chiropody and reflexology
 templateKey: index-page
 title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
+image: /img/chemex.jpg
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
@@ -60,11 +145,12 @@ main:
     optimal for the plants, farmers and the local environment.
   image1:
     alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
+    image: /img/chemex.jpg
   image2:
     alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
+    image: /img/blog-index.jpg
   image3:
     alt: Coffee beans
-    image: /img/products-grid1.jpg
+    image: /img/jumbotron.jpg
 ---
+
