@@ -29,10 +29,9 @@ collections:
         name: "index"
         fields: 
         - {
-            label: Team, 
-            name: team, 
-            widget: object, 
-            fields: [
+          label: Team, name: team, widget: object, 
+          fields: 
+            [
               {
                  label: Heading,
                  name: heading,
@@ -47,55 +46,57 @@ collections:
                 label: Team Member,
                 name: team-member,
                 widget: list,
-                fields: [
-                  {
-                    label: Name,
-                    name: name,
-                    widget: text
-                  },
-                  {
-                    label: Qualifications,
-                    name: qualifications,
-                    widget: text
-                  },
-                  {
-                    label: Treatments,
-                    name: treatments,
-                    widget: text
-                  },
-                  {
-                    label: Description,
-                    name: description,
-                    widget: text
-                  },
-                  {
-                    label: Prices,
-                    name: prices,
-                    widget: list,
-                    fields: [
+                fields: 
+                  [
                     {
-                      label: Treatment,
-                      name: treatment_type,
+                      label: Name,
+                      name: name,
                       widget: text
                     },
                     {
-                      label: Price,
-                      name: price,
-                      widget: number
+                      label: Qualifications,
+                      name: qualifications,
+                      widget: text
                     },
                     {
-                      label: Duration,
-                      name: duration,
-                      widget: text,
+                      label: Treatments,
+                      name: treatments,
+                      widget: text
+                    },
+                    {
+                      label: Description,
+                      name: description,
+                      widget: text
+                    },
+                    {
+                      label: Prices,
+                      name: prices,
+                      widget: list,
+                      fields: 
+                      [
+                        {
+                          label: Treatment,
+                          name: treatment_type,
+                          widget: text
+                        },
+                        {
+                          label: Price,
+                          name: price,
+                          widget: number
+                        },
+                        {
+                          label: Duration,
+                          name: duration,
+                          widget: text,
+                        }
+                      ]
+                    },
+                    {
+                      label: Availablility,
+                      name: availablility,
+                      widget: text
                     }
-                    ]
-                  },
-                  {
-                    label: Availablility,
-                    name: availablility,
-                    widget: text
-                  }
-                ]
+                  ]
               }
             ]
           },
