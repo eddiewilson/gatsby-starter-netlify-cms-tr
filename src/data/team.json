@@ -1,0 +1,115 @@
+[
+  {
+    "name": "Hillary Hignell",
+    "qualifications": "Dip Pod Med, MBChA, MSSCh, MAR, HPC Reg, CNHC Reg",
+    "treatments": "Chiropody and reflexology",
+    "description": "Hilary has been a qualified chiropodist since 1994 and Reflexologist for over 15 years. Performing general foot care including nail trimming, removal of callous and corns, and also practicing biomechanics (the examination of the gait and the way the foot functions to treat the cause of problems as well as the symptoms) this can lead to the fitting of insoles and orthotics. She also performs, cryosurgery for verrucae, diabetic examinations and can replace damaged nails with Pedique nail gel. Now also available, PACT nail fungal treatment. This involves 4 treatments using light therapy to destroy the fungus. The course of treatment for one nail is &pound;120 with a &pound;10 cost for each additional nail. Hilary now offers a wax treatment which is used to target areas of dry, scaly skin or areas of poor circulation. This treatment is especially beneficial when used in addition to a normal Chiropody treatment leaving feet soft, hydrated and smooth. Dr's Remedy nail varnish is now available in The Therapy Room Bodmin which contains no formaldehyde and other chemicals which cause nails to turn yellow after use. Dr's Remedy is also safe for diabetics and pregnancy.",
+    "links": [],
+    "prices": []
+  },
+  {
+    "name": "Joanna Austen",
+    "qualifications": "ECBS, MBTPA, ITEC",
+    "treatments": "Bowen Technique",
+    "description": "Joanna qualified in 2004 as a Bowen Therapist and has since dedicated herself to this highly effective therapy. She has run a clinic in Liskeard since that time and in 2011 joined the Therapy Room in Bodmin when it opened. Joanna has continually developed her understanding and use of the Bowen Technique over the years. Bowen can be used for any number of problems that people suffer, but primarily people present with Sciatica, Frozen Shoulder, Migraine or any major back/neck pain. However people also present with many other conditions including stress related issues.",
+    "links": [
+      {
+        "Natural Therapy Pages": "http://www.naturaltherapypages.co.uk/therapist/joannaausten/12726",
+        "The Bowen Technique": "http://www.thebowentechnique.com/",
+        "BTPA": "http://www.bowen-therapy.co/default.asp"
+      }
+    ],
+    "prices": [
+      {
+        "Bowen Technique (Initial Appointment)": [
+          {
+            "50": "50mins"
+          }
+        ]
+      },
+      {
+        "Bowen Technique (Follow Up Appointment)": [
+          {
+            "40": "40mins"
+          }
+        ]
+      }
+    ],
+    "availablity": ["Tuesday"]
+  },
+  {
+    "name": "Daniel Carter",
+    "qualifications": "MCFHP, MAFHP",
+    "treatments": "Foot Health Professional",
+    "description": "Dan Carter is qualified as a Foot Health Professional in 2005 having trained at The S.M.A.E Institute in Maidenhead. He is experienced in treating a range of common foot problems including corns, calluses and verrucae as well as nail trimming and nail care.",
+    "links": [
+      {
+        "British Association of Foot Health Professionals": "http://www.clinicalfootcare.org/"
+      }
+    ],
+    "prices": [
+      {
+        "General Foot Care": [
+          {
+            "27": "30mins"
+          }
+        ],
+        "Toe Nail Trimming": [
+          {
+            "19": "15mins"
+          }
+        ]
+      }
+    ],
+    "availability": ["Wednesday (am)", "Friday (am)"]
+  },
+  {
+    "name": "Matt East",
+    "qualifications": "BSc Hons",
+    "treatments": "Physiotherapist, Bowen Therapy and Integrated Health Practitioner.",
+    "description": "Matt qualified as a physiotherapist in 2000, since then he has trained in a number of different techniques such as acupuncture, neurological integration and utilises a number of soft tissue remedial bodywork therapies such as the Bowen technique. This enables him to tailor each treatment to the individual to help with a wide range of symptoms and health complaints, providing a natural drug free approach to healthcare where possible.",
+    "links": [],
+    "prices": [
+      {
+        "Bowen Technique (Initial Appointment)": [
+          {
+            "50": "40 mins"
+          }
+        ],
+        "Bowen Technique (Follow-Up Appointment)": [
+          {
+            "40": "40mins"
+          }
+        ]
+      }
+    ],
+    "availability": ["Thursday"]
+  },
+  {
+    "name": "Ana Jackson",
+    "qualifications": "BA (Hons) Psychology, Master Practitioner of Hypnotherapy, Master Practitioner and NLP Coach, Timeline Therapist",
+    "treatments": "Hypnotherapy, Neuro-linguistic Programming (NLP) and Timeline Therapy",
+    "description": "Ana has been interested in the ways that we all relate to our own unconscious minds since she gained her honours degree in Psychology, over 25 years ago. She is a certified Master Practitioner in Hypnotherapy, Neuro Linguistic Programming (NLP) and Timeline Therapy. Ana uses a range of therapeutic techniques to help each individual gain a better understanding of their own unconscious mind and how it influences their behaviour. This process enables her clients to take control and deal with a variety of personal issues in a safe, calm and confidential environment. Ana prides herself on understanding that common problems often have different causes, depending on each client. From the initial consultation to the completion of therapy, her strategy will focus on the improvements that you wish to make in your own life. Whether you would like to deal with a complex personal issue or simply give up smoking, the treatment will be individually designed to help you understand and beat the root cause of the problem. Ana is registered with the UK GHR and bound by their ethics and code of practice. She is fully insured and has an enhanced CRB clearance.",
+    "links": [
+      {
+        "Email for enquiries": "ana.jackson@therapist.net",
+        "www.londonhypnotherapists.co.uk": "www.londonhypnotherapists.co.uk"
+      }
+    ],
+    "prices": [
+      {
+        "General Foot Care": [
+          {
+            "27": "30mins"
+          }
+        ],
+        "Toe Nail Trimming": [
+          {
+            "19": "15mins"
+          }
+        ]
+      }
+    ],
+    "availability": ["Thursdays"]
+  }
+]

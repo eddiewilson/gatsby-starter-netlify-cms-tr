@@ -1,0 +1,19 @@
+﻿{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Therapy Room Bodmin",
+        "description": "Complementary Therapy in the heart of Bodmin"
+      },
+      "geometry": {
+        "coordinates": [
+          -4.718734, 
+          50.471689
+        ],
+        "type": "Point"
+      }
+    }
+  ],
+  "type": "FeatureCollection"
+}

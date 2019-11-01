@@ -1,58 +1,71 @@
-import React from 'react'
-import { Helmet } from 'react-helmet'
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
-import './all.sass'
-import useSiteMetadata from './SiteMetadata'
-import { withPrefix } from 'gatsby'
+/**
+ * Layout component that queries for data
+ * with Gatsby's useStaticQuery component
+ *
+ * See: https://www.gatsbyjs.org/docs/use-static-query/
+ */
 
-const TemplateWrapper = ({ children }) => {
-  const { title, description } = useSiteMetadata()
+import React from "react";
+import PropTypes from "prop-types";
+import { useStaticQuery, graphql } from "gatsby";
+import GlobalStyle from "./global.css";
+import { Container } from "./layout.css";
+//import SmoothScroll from "smooth-scroll";
+
+import Header from "./header";
+
+// import "./layout.css"
+
+const Layout = ({ children }) => {
+  const data = useStaticQuery(graphql`
+    query MetaQuery {
+      site {
+        siteMetadata {
+          title
+        }
+      }
+    }
+  `);
+  //if (typeof window !== "undefined") {
+  //  // eslint-disable-next-line global-require
+  //  // require("smooth-scroll")('a[href*="#"]')
+  //  var scroll = new SmoothScroll('a[href*="#"]', {
+  //    speed: 500, // Integer. Amount of time in milliseconds it should take to scroll 1000px
+  //    speedAsDuration: false, // If true, use speed as the total duration of the scroll animation
+  //    durationMax: null, // Integer. The maximum amount of time the scroll animation should take
+  //    durationMin: null, // Integer. The minimum amount of time the scroll animation should take
+  //    clip: true, // If true, adjust scroll distance to prevent abrupt stops near the bottom of the page
+  //    offset: function(anchor, toggle) {
+  //      return 0;
+  //    },
+  //
+  //    // Easing
+  //    easing: "easeInOutCubic", // Easing pattern to use
+  //    // History
+  //    updateURL: true, // Update the URL on scroll
+  //    popstate: true, // Animate scrolling with the forward/backward browser buttons (requires updateURL to be true)
+  //
+  //    // Custom Events
+  //    emitEvents: true // Emit custom events
+  //  });
+  //}
+
   return (
-    <div>
-      <Helmet>
-        <html lang="en" />
-        <title>{title}</title>
-        <meta name="description" content={description} />
+    <Container>
+      <GlobalStyle />
+      <Header siteTitle={data.site.siteMetadata.title} />
+      <main>{children}</main>
+      <footer>
+        © {new Date().getFullYear()}, Built with
+        {` `}
+        <a href="https://www.gatsbyjs.org">Gatsby</a>
+      </footer>
+    </Container>
+  );
+};
 
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href={`${withPrefix('/')}img/apple-touch-icon.png`}
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          href={`${withPrefix('/')}img/favicon-32x32.png`}
-          sizes="32x32"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          href={`${withPrefix('/')}img/favicon-16x16.png`}
-          sizes="16x16"
-        />
+Layout.propTypes = {
+  children: PropTypes.node.isRequired
+};
 
-        <link
-          rel="mask-icon"
-          href={`${withPrefix('/')}img/safari-pinned-tab.svg`}
-          color="#ff4400"
-        />
-        <meta name="theme-color" content="#fff" />
-
-        <meta property="og:type" content="business.business" />
-        <meta property="og:title" content={title} />
-        <meta property="og:url" content="/" />
-        <meta
-          property="og:image"
-          content={`${withPrefix('/')}img/og-image.jpg`}
-        />
-      </Helmet>
-      <Navbar />
-      <div>{children}</div>
-      <Footer />
-    </div>
-  )
-}
-
-export default TemplateWrapper
+export default Layout;
