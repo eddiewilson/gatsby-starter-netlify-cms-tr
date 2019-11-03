@@ -9,16 +9,6 @@ export const Container = styled.span`
     ${MEDIA.PHONE`
   `};
   }
-  .section {
-    padding: 4rem 0;
-    ${MEDIA.PHONE`
-    padding: 2rem 0;
-  `};
-    &:first-of-type {
-      padding-top: 0;
-      padding-bottom: 0;
-    }
-  }
   .header {
     margin-bottom: 7rem;
     ${MEDIA.PHONE`
@@ -35,14 +25,6 @@ export const Container = styled.span`
     margin-left: 5%;
     color: white;
     padding: 2%;
-  }
-  /****Section #3****/
-
-  .team {
-    border-bottom: #d6d8dc solid 1px;
-    margin-bottom: 45px;
-    padding-bottom: 45px;
-    padding-top: 10px;
   }
   .teamtitle {
     margin-bottom: 1.1%;
@@ -121,14 +103,6 @@ export const Container = styled.span`
   /**Google Maps**/
   #content h1 {
     font-size: 1em;
-  }
-  #two {
-    background-color: #dedede;
-  }
-  #three {
-    background-color: #dae2e8;
-    line-height: 1.4em;
-    padding-bottom: 50px;
   }
   #four {
     background-color: #e3e9ff;

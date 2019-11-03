@@ -1,21 +1,23 @@
-import Styled from "styled-components"
-import MEDIA from "../../utils/mediaTemplates"
+import Styled from "styled-components";
+import MEDIA from "../../utils/mediaTemplates";
 
 export const Nav = Styled.nav`
 ul {
     padding: 0;
     list-style: none;
+    display: none;
   }
   li {
     list-style: none;
   }
-  .nav {
+  nav {
     ${MEDIA.PHONE`
     position: fixed;
     right: 0rem;
     top: 0rem;
     width: 100vw;
     opacity: 1;
+    display: none;
     height: 50px;
     z-index: 3;
     transition all 0.2s ease-in-out 0s;
@@ -112,4 +114,4 @@ ul {
         cursor: pointer;
     }
 }
-`
+`;

@@ -12,8 +12,8 @@ const Logo = () => (
           publicURL
           id
           childImageSharp {
-            fixed(width: 100, height: 50) {
-              ...GatsbyImageSharpFixed
+            fluid {
+              ...GatsbyImageSharpFluid
             }
           }
         }
@@ -21,7 +21,7 @@ const Logo = () => (
     `}
     render={(data) => (
       <ImageWrapper>
-        <Img fixed={data.file.childImageSharp.fixed} />
+        <Img fluid={data.file.childImageSharp.fluid} />
       </ImageWrapper>
     )}
   />

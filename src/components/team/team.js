@@ -3,6 +3,12 @@ import React from "react";
 // import { Quals } from "./team.css"
 import TeamMember from "./team-member";
 import { StaticQuery, graphql } from "gatsby";
+import styled from "styled-components";
+
+const Section = styled.section`
+  padding-top: 4rem;
+  background-color: #dae2e8;
+`;
 
 const Team = () => (
   <StaticQuery
@@ -35,7 +41,7 @@ const Team = () => (
       }
     `}
     render={(data) => (
-      <section id="three" className="section">
+      <Section id="three" className="section">
         <div className="container">
           <div className="grid">
             <div className="col-12">
@@ -56,7 +62,7 @@ const Team = () => (
             )}
           </div>
         </div>
-      </section>
+      </Section>
     )}
   />
 );
