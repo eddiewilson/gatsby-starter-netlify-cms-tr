@@ -84,6 +84,60 @@ team:
             appointment
       qualifications: 'Dip Pod Med, MBChA, MSSCh, MAR, HPC Reg, CNHC Reg'
       treatments: Chiropody and reflexology
+    - availablility: Tuesday
+      description: >-
+        Joanna qualified in 2004 as a Bowen Therapist and has since dedicated
+        herself to this highly effective therapy. She has run a clinic in
+        Liskeard since that time and in 2011 joined the Therapy Room in Bodmin
+        when it opened.
+
+
+        Joanna has continually developed her understanding and use of the Bowen
+        Technique over the years. Bowen can be used for any number of problems
+        that people suffer, but primarily people present with Sciatica, Frozen
+        Shoulder, Migraine or any major back/neck pain. However people also
+        present with many other conditions including stress related issues.
+
+
+        [Natural Therapy Pages]
+        (http://www.naturaltherapypages.co.uk/therapist/joannaausten/12726)
+
+        [The Bowen Technique] (http://www.thebowentechnique.com/)
+
+        [BTPA] (http://www.bowen-therapy.co/default.asp)
+      name: Joanna Austen
+      prices:
+        - duration: 50 mins approx
+          price: 50
+          treatment_type: Bowen Technique (Initial Appointment)
+        - duration: 40 mins approx
+          price: 40
+          treatment_type: Bowen Technique (Follow Up Appointment)
+      qualifications: 'ECBS, MBTPA, ITEC'
+      treatments: BOWEN TECHNIQUE
+    - availablility: |-
+        Wednesday (am)
+        Friday (am)
+      description: >-
+        Dan Carter is qualified as a Foot Health Professional in 2005 having
+        trained at The S.M.A.E Institute in Maidenhead.
+
+
+        He is experienced in treating a range of common foot problems including
+        corns, calluses and verrucae as well as nail trimming and nail care.
+
+        [British Association of Foot Health Professionals]
+        (http://www.clinicalfootcare.org/)
+      name: Daniel Carter
+      prices:
+        - duration: 30 minutes
+          price: 26
+          treatment_type: General Foot Care
+        - duration: 15 minute
+          price: 19
+          treatment_type: Toe Nail Trimming
+      qualifications: 'MCFHP, MAFHP'
+      treatments: FOOT HEALTH PROFESSIONAL
 templateKey: index-page
 title: Great coffee with a conscience
 image: /img/chemex.jpg
