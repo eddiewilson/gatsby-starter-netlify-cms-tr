@@ -114,7 +114,7 @@ team:
           price: 40
           treatment_type: Bowen Technique (Follow Up Appointment)
       qualifications: 'ECBS, MBTPA, ITEC'
-      treatments: BOWEN TECHNIQUE
+      treatments: Bowen Technique
     - availablility: |-
         Wednesday (am)
         Friday (am)
