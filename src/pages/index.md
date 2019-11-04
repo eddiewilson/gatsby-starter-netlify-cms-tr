@@ -106,10 +106,11 @@ team:
 
 
         [Natural Therapy
-        Pages](http://www.naturaltherapypages.co.uk/therapist/joannaausten/12726)
+        Pages(http://www.naturaltherapypages.co.uk/therapist/joannaausten/12726)
 
 
         [The Bowen Technique](http://www.thebowentechnique.com/)
+
 
         [BTPA](http://www.bowen-therapy.co/default.asp)
       name: Joanna Austen
