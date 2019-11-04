@@ -44,10 +44,10 @@ team:
 
 
         [Natural Therapy
-        Pages(http://www.naturaltherapypages.co.uk/therapist/hilaryhignell/13736)  
+        Pages(www.naturaltherapypages.co.uk/therapist/hilaryhignell/13736)  
 
 
-        [Yell.com](http://www.yell.com/b/Hilary+Hignell-Chiropodists+and+Podiatrists-Bodmin-PL312DR-5854460/index.html)
+        [Yell.com](www.yell.com/b/Hilary+Hignell-Chiropodists+and+Podiatrists-Bodmin-PL312DR-5854460/index.html)
       name: Hilary Hignell
       prices:
         - duration: 30 minutes
@@ -106,13 +106,13 @@ team:
 
 
         [Natural Therapy
-        Pages(http://www.naturaltherapypages.co.uk/therapist/joannaausten/12726)
+        Pages(www.naturaltherapypages.co.uk/therapist/joannaausten/12726)
 
 
-        [The Bowen Technique](http://www.thebowentechnique.com/)
+        [The Bowen Technique](www.thebowentechnique.com)
 
 
-        [BTPA](http://www.bowen-therapy.co/default.asp)
+        [BTPA](www.bowen-therapy.co/default.asp)
       name: Joanna Austen
       prices:
         - duration: 50 mins approx
@@ -136,7 +136,7 @@ team:
 
 
         [British Association of Foot Health
-        Professionals](http://www.clinicalfootcare.org/)
+        Professionals](http://www.clinicalfootcare.org)
       name: Daniel Carter
       prices:
         - duration: 30 minutes
