@@ -133,6 +133,7 @@ team:
         He is experienced in treating a range of common foot problems including
         corns, calluses and verrucae as well as nail trimming and nail care.
 
+
         [British Association of Foot Health
         Professionals](http://www.clinicalfootcare.org/)
       name: Daniel Carter
