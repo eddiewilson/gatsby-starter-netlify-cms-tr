@@ -43,11 +43,11 @@ team:
         *HPC British Chiropody Association, Association of Reflexologists.*   
 
 
-        [Natural Therapy
-        Pages(www.naturaltherapypages.co.uk/therapist/hilaryhignell/13736)  
+        *[Natural Therapy
+        Pages(www.naturaltherapypages.co.uk/therapist/hilaryhignell/13736)*
 
 
-        [Yell.com](www.yell.com/b/Hilary+Hignell-Chiropodists+and+Podiatrists-Bodmin-PL312DR-5854460/index.html)
+        *[Yell.com](www.yell.com/b/Hilary+Hignell-Chiropodists+and+Podiatrists-Bodmin-PL312DR-5854460/index.html)*
       name: Hilary Hignell
       prices:
         - duration: 30 minutes
@@ -105,14 +105,14 @@ team:
         present with many other conditions including stress related issues.
 
 
-        [Natural Therapy
-        Pages(www.naturaltherapypages.co.uk/therapist/joannaausten/12726)
+        *[Natural Therapy
+        Pages(www.naturaltherapypages.co.uk/therapist/joannaausten/12726)*
 
 
-        [The Bowen Technique](www.thebowentechnique.com)
+        *[The Bowen Technique](www.thebowentechnique.com)*
 
 
-        [BTPA](www.bowen-therapy.co/default.asp)
+        *[BTPA](www.bowen-therapy.co/default.asp)*
       name: Joanna Austen
       prices:
         - duration: 50 mins approx
@@ -135,8 +135,8 @@ team:
         corns, calluses and verrucae as well as nail trimming and nail care.
 
 
-        [British Association of Foot Health
-        Professionals](http://www.clinicalfootcare.org)
+        *[British Association of Foot Health
+        Professionals](http://www.clinicalfootcare.org)*
       name: Daniel Carter
       prices:
         - duration: 30 minutes
