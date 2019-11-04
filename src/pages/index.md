@@ -44,7 +44,9 @@ team:
 
 
         [Natural Therapy
-        Pages(http://www.naturaltherapypages.co.uk/therapist/hilaryhignell/13736) 
+        Pages(http://www.naturaltherapypages.co.uk/therapist/hilaryhignell/13736)  
+
+
         [Yell.com](http://www.yell.com/b/Hilary+Hignell-Chiropodists+and+Podiatrists-Bodmin-PL312DR-5854460/index.html)
       name: Hilary Hignell
       prices:
@@ -105,6 +107,7 @@ team:
 
         [Natural Therapy
         Pages](http://www.naturaltherapypages.co.uk/therapist/joannaausten/12726)
+
 
         [The Bowen Technique](http://www.thebowentechnique.com/)
 
