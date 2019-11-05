@@ -146,7 +146,7 @@ team:
           price: 19
           treatment_type: Toe Nail Trimming
       qualifications: 'MCFHP, MAFHP'
-      treatments: FOOT HEALTH PROFESSIONAL
+      treatments: Foot Health Professional
 templateKey: index-page
 title: Great coffee with a conscienced
 image: /img/chemex.jpg
