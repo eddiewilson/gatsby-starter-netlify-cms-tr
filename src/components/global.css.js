@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components"
+import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
   html, body, div, span, applet, object, iframe,
@@ -1394,4 +1394,4 @@ display: none; } }
     margin: 0 auto;
 }
 
-`
+`;

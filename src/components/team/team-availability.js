@@ -1,12 +1,12 @@
-import React from "react"
+import React from "react";
 
 const TeamAvailability = () => (
   <div className="availability">
-    <h4>Availability</h4>
+    <h5>Availability</h5>
     <ul>
       <li>Monday, Tuesday &amp; Thursday</li>
     </ul>
   </div>
-)
+);
 
-export default TeamAvailability
+export default TeamAvailability;

@@ -1,9 +1,13 @@
 import React from "react";
+import { MarkdownPreview } from "react-marked-markdown";
+import styled from "styled-components";
 
+const Section = styled.div`
+  margin-bottom: 4rem;
+`;
 const TeamDescription = ({ ...props }) => (
-  <div
-    className="team-description"
-    dangerouslySetInnerHTML={{ __html: props.description }}
-  ></div>
+  <Section>
+    <MarkdownPreview value={props.description} />
+  </Section>
 );
 export default TeamDescription;

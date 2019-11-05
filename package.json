@@ -39,6 +39,7 @@
     "react-dom": "^16.8.4",
     "react-helmet": "^5.2.0",
     "react-map-gl": "^5.0.12",
+    "react-marked-markdown": "^1.4.6",
     "react-typography": "^0.16.19",
     "smooth-scroll": "^16.1.0",
     "styled-components": "^4.4.0",

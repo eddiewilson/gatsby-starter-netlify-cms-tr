@@ -6,28 +6,38 @@ import TeamLinks from "./team-links";
 import TeamPrices from "./team-prices";
 import TeamAvailability from "./team-availability";
 
-// import styled from "styled-components"
+import styled from "styled-components";
+
+const TeamSection = styled.section``;
+const Article = styled.article`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 101px;
+`;
 
 const TeamMember = ({ teamMember }) => (
-  <div className="col-6_sm-12">
+  <TeamSection>
     {teamMember.map((therapist) =>
       therapist === null ? (
         ""
       ) : (
-        <article className="team-member">
-          <TeamHeader {...therapist} />
-          <TeamDescription {...therapist} />
-          <TeamLinks {...therapist} />
-          <TeamPrices />
-          <TeamAvailability />
-        </article>
+        <Article className="team-member" key={therapist.name}>
+          <div>
+            <TeamHeader {...therapist} />
+            <TeamDescription {...therapist} />
+          </div>
+          <div>
+            <TeamPrices prices={therapist.prices} />
+            <TeamAvailability />
+          </div>
+        </Article>
       )
     )}
-  </div>
+  </TeamSection>
 );
 
 TeamMember.propTypes = {
-  children: PropTypes.node.isRequired,
+  children: PropTypes.node,
   teamMember: PropTypes.array
 };
 

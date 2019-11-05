@@ -28,6 +28,31 @@ const Section = styled.section`
   `}
 `;
 
+const Intro = styled.div`
+  h1 {
+    transform: translateY(5px);
+    transition: all 0.2s ease-in-out 0.2s;
+    opacity: 0;
+    &.loaded {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+  p.animate {
+    transform: translateY(5px);
+    transition: all 0.2s ease-in-out 0.4s;
+    opacity: 0;
+    &.loaded {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+`;
+
+//const animateIntro = () => {
+//  document.getElementById("intro").classList.add("loaded");
+//};
+
 const Header = ({ siteTitle }) => (
   <header>
     <Section className="section">
@@ -38,20 +63,20 @@ const Header = ({ siteTitle }) => (
           </div>
         </header>
         <Nav />
-        <div className="grid-bottom">
+        <Intro className="grid-bottom">
           <div className="col-6_sm-12" data-push-right="off-6_sm-0">
-            <h1>
+            <h1 className="animate">
               Welcome to <br />
               The Therapy Room
             </h1>
           </div>
           <div className="col-5_sm-12">
-            <p>
+            <p className="animate">
               We provide a range of complementary therapies to help improve your
               health and well being. Located in the heart of Bodmin, Cornwall.
             </p>
           </div>
-        </div>
+        </Intro>
       </div>
     </Section>
   </header>

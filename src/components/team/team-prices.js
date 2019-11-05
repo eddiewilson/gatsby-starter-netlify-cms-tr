@@ -1,26 +1,46 @@
-import React from "react"
+import React from "react";
+import PropTypes from "prop-types";
+import styled from "styled-components";
 
-const TeamPrices = () => (
-  <div className="team-prices">
+const Section = styled.div`
+  margin-top: 104px;
+  margin-bottom: 4rem;
+`;
+const PriceTable = styled.div`
+  display: grid;
+  grid-template-columns: 50% 80px auto;
+  grid-gap: 0px;
+  div {
+    padding: 0.6rem 0.2rem;
+    border-bottom: 1px solid #b3bec7;
+  }
+`;
+
+const TeamPrices = (props) => (
+  <Section>
     <h5>Treatments</h5>
-    <ul>
-      <li>Chiropody: 30 minutes - &pound;27</li>
-      <li>Reflexology: 45 minutes - &pound;35</li>
-      <li>Chiropody with Reflexology - &pound;45</li>
-      <li>Chiropody with Wax Treatment - &pound;37</li>
-      <li>Diabetic Examination: &pound;27</li>
-      <li>Nail Trimming: 15 minutes - &pound;19</li>
-      <li>Indian Head Massage: 45mins - &pound;35</li>
-      <li>Biomechanical Evaluation: 1hr - &pound;40</li>
-      <li>
-        PACT nail fungal treatment - One nail is &pound;120 with a &pound;10
-        cost for each additional nail
-      </li>
-      <li>
-        Wax Treatment - &pound;25 for a 1/2 treatment or &pound;50 if added on
-        to a normal 1/2 hour Chiropody appointment.
-      </li>
-    </ul>
-  </div>
-)
-export default TeamPrices
+
+    {props.prices.map((therapist) =>
+      therapist === null || therapist === "undefined" ? (
+        ""
+      ) : (
+        <PriceTable>
+          <div>{therapist.treatment_type}</div>
+          <div>{"£" + therapist.price}</div>
+          <div>
+            {" "}
+            {therapist.duration.length == 1 || therapist.duration
+              ? therapist.duration
+              : ""}
+          </div>
+        </PriceTable>
+      )
+    )}
+  </Section>
+);
+
+TeamPrices.propTypes = {
+  prices: PropTypes.array
+};
+
+export default TeamPrices;

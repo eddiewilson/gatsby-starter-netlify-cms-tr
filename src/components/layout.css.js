@@ -2,13 +2,6 @@ import styled from "styled-components";
 import MEDIA from "../utils/mediaTemplates";
 
 export const Container = styled.span`
-  #one {
-    min-height: 70vh;
-    background-color: #339999;
-    color: white;
-    ${MEDIA.PHONE`
-  `};
-  }
   .header {
     margin-bottom: 7rem;
     ${MEDIA.PHONE`
