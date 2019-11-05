@@ -38,10 +38,16 @@ team:
         pregnancy.
 
 
-        *   HPC British Chiropody Association, Association of Reflexologists.*  
-        [Natural Therapy
-        Pages](http://www.naturaltherapypages.co.uk/therapist/hilaryhignell/13736)*  
-        [Yell.com](http://www.yell.com/b/Hilary+Hignell-Chiropodists+and+Podiatrists-Bodmin-PL312DR-5854460/index.html)
+
+
+        *HPC British Chiropody Association, Association of Reflexologists.*   
+
+
+        *[Natural Therapy
+        Pages(www.naturaltherapypages.co.uk/therapist/hilaryhignell/13736)*
+
+
+        *[Yell.com](www.yell.com/b/Hilary+Hignell-Chiropodists+and+Podiatrists-Bodmin-PL312DR-5854460/index.html)*
       name: Hilary Hignell
       prices:
         - duration: 30 minutes
@@ -99,12 +105,14 @@ team:
         present with many other conditions including stress related issues.
 
 
-        [Natural Therapy Pages]
-        (http://www.naturaltherapypages.co.uk/therapist/joannaausten/12726)
+        *[Natural Therapy
+        Pages(www.naturaltherapypages.co.uk/therapist/joannaausten/12726)*
 
-        [The Bowen Technique] (http://www.thebowentechnique.com/)
 
-        [BTPA] (http://www.bowen-therapy.co/default.asp)
+        *[The Bowen Technique](www.thebowentechnique.com)*
+
+
+        *[BTPA](www.bowen-therapy.co/default.asp)*
       name: Joanna Austen
       prices:
         - duration: 50 mins approx
@@ -114,7 +122,7 @@ team:
           price: 40
           treatment_type: Bowen Technique (Follow Up Appointment)
       qualifications: 'ECBS, MBTPA, ITEC'
-      treatments: BOWEN TECHNIQUE
+      treatments: Bowen Technique
     - availablility: |-
         Wednesday (am)
         Friday (am)
@@ -126,8 +134,9 @@ team:
         He is experienced in treating a range of common foot problems including
         corns, calluses and verrucae as well as nail trimming and nail care.
 
-        [British Association of Foot Health Professionals]
-        (http://www.clinicalfootcare.org/)
+
+        *[British Association of Foot Health
+        Professionals](http://www.clinicalfootcare.org)*
       name: Daniel Carter
       prices:
         - duration: 30 minutes
@@ -137,9 +146,9 @@ team:
           price: 19
           treatment_type: Toe Nail Trimming
       qualifications: 'MCFHP, MAFHP'
-      treatments: FOOT HEALTH PROFESSIONAL
+      treatments: Foot Health Professional
 templateKey: index-page
-title: Great coffee with a conscience
+title: Great coffee with a conscienced
 image: /img/chemex.jpg
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
