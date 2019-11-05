@@ -1,5 +1,5 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from "react";
+import { Link } from "gatsby";
 
 const Footer = () => (
   <div id="five">
@@ -79,7 +79,10 @@ const Footer = () => (
         </div>
       </div>
     </div>
+    © {new Date().getFullYear()}, Built with
+    {` `}
+    <a href="https://www.gatsbyjs.org">Gatsby</a>
   </div>
-)
+);
 
-export default Footer
+export default Footer;
