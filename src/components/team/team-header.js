@@ -8,10 +8,12 @@ const H3 = styled.h3`
 
 const TeamHeader = ({ ...props }) => (
   <div className="team-header">
-    <H3>{props.name}</H3>
-    <Quals>{props.qualifications}</Quals>
+    <H3>
+      {props.name}
+      <Quals>{props.qualifications}</Quals>
+    </H3>
 
-    <h5>{props.treatments}</h5>
+    <h5 style={{ display: "none" }}>{props.treatments}</h5>
   </div>
 );
 

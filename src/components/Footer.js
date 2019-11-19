@@ -6,7 +6,7 @@ const Footer = () => (
     <div className="container foot">
       <div className="grid">
         <div className="col-12_sm-12">
-          <h2>Contact Us</h2>
+          <h2>We always have offers and special events. Stay in touch</h2>
         </div>
       </div>
     </div>

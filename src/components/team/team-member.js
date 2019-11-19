@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import TeamHeader from "./team-header";
 import TeamDescription from "./team-description";
-import TeamLinks from "./team-links";
+
 import TeamPrices from "./team-prices";
 import TeamAvailability from "./team-availability";
 

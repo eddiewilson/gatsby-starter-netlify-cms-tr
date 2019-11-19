@@ -6,13 +6,13 @@ import styled from "styled-components";
 import MEDIA from "../utils/mediaTemplates";
 
 const Section = styled.section`
-  animation: AnimationName 30s ease infinite;
+  animation: AnimationName 5s ease infinite;
   @keyframes AnimationName {
     0% {
       background-position: 0% 50%;
     }
     50% {
-      background-position: 100% 50%;
+      background-position: 75% 50%;
     }
     100% {
       background-position: 0% 50%;

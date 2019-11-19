@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { GeolocateControl, Marker, StaticMap } from "react-map-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import styled from "styled-components";
@@ -19,6 +19,7 @@ export const InfoWindow = styled.div`
   width: 236px;
   top: -290px;
   left: -110px;
+  border-radius: 18px;
   &:after {
     content: "";
     position: absolute;
@@ -32,7 +33,7 @@ export const InfoWindow = styled.div`
 `;
 
 const Map = (props) => {
-  const [viewport, setViewPort] = useState({
+  const viewport = {
     width: "100%",
     height: 500,
     latitude: 50.471689,
@@ -46,7 +47,7 @@ const Map = (props) => {
     pitch: 40,
     bearing: 20,
     antialias: true
-  });
+  };
 
   const geolocateStyle = {
     float: "left",

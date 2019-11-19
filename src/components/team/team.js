@@ -7,7 +7,7 @@ import styled from "styled-components";
 
 const Section = styled.section`
   padding-top: 4rem;
-  background-color: white; //#dae2e8;
+  background-color: #f9f9f9; //#dae2e8;
   .underline {
     position: relative;
     margin-bottom: 144px;

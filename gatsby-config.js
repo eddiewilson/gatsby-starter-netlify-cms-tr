@@ -97,6 +97,13 @@ module.exports = {
         purgeOnly: [`/all.sass`] // applies purging only on the bulma css file
       }
     }, // must be after other CSS plugins
-    `gatsby-plugin-netlify` // make sure to keep it last in the array
+    `gatsby-plugin-netlify`, // make sure to keep it last in the array
+    {
+      resolve: `gatsby-source-ical`,
+      options: {
+        name: `events`,
+        url: `https://calendar.google.com/calendar/ical/therapyroombodmin%40gmail.com/public/basic.ics`
+      }
+    }
   ]
 };
